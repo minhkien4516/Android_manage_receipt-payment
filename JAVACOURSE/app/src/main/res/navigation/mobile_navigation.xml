@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.budgetpro.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_chi"
+        android:name="com.example.budgetpro.ui.PayMent.PaymentFragment"
+        android:label="@string/nav_header_2"
+        tools:layout="@layout/fragment_payment" />
+    <fragment
+        android:id="@+id/nav_thu"
+        android:name="com.example.budgetpro.ui.Saving.SavingFragment"
+        android:label="@string/nav_header_1"
+        tools:layout="@layout/fragment_saving" />
+    <fragment
+        android:id="@+id/nav_thoat"
+        android:name="com.example.budgetpro.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_thongke"
+        android:name="com.example.budgetpro.ui.ThongKe.ThongkeFragment"
+        android:label="@string/nav_header_3"
+        tools:layout="@layout/fragment_thongke" />
+</navigation>

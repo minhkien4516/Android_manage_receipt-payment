@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#fece2f"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/bungee"
+            android:gravity="center"
+            android:text="@string/kho_n_chi"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColorHint="#000">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etId1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_bocong"
+            android:drawableLeft="@drawable/iconedit"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/bungee"
+            android:hint="@string/m_kho_n_chi"
+            tools:textSize="20sp"
+            android:drawableStart="@drawable/iconedit" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edt_bocong"
+            android:fontFamily="@font/bungee"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textColorHint="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/icontutien"
+            app:drawableLeftCompat="@drawable/icontutien" />
+
+        <Spinner
+            android:id="@+id/spType1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/edt_bocong"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:spinnerMode="dialog"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_bocong"
+            android:drawableStart="@drawable/icontien"
+            android:drawableLeft="@drawable/icontien"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/bungee"
+            android:hint="@string/t_n_kho_n_chi"
+            tools:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColorHint="#000">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etAmount1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_bocong"
+            android:drawableLeft="@drawable/icontienn"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/bungee"
+            android:hint="@string/s_ti_n"
+            tools:textSize="20sp"
+            android:drawableStart="@drawable/icontienn" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etNote1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_bocong"
+            android:drawableLeft="@drawable/iconghichu"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/bungee"
+            android:hint="@string/ghi_ch"
+            android:textColorHint="#000"
+            android:textStyle="bold"
+            tools:textSize="20sp"
+            android:drawableStart="@drawable/iconghichu" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/tvNgay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_bocong"
+        android:drawableStart="@drawable/icondate"
+        android:drawableLeft="@drawable/icondate"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/bungee"
+        tools:textSize="20sp"/>
+</LinearLayout>
